@@ -9,9 +9,6 @@
 int main() {
 	Project p = new_project();
 	gen_makefile(&p);
-	
-	printf("complete\n");
-	
 	return 0;
 }
 
